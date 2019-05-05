@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MyCharacter : MonoBehaviour
+public class MyCharacterCloakNormal : MonoBehaviour
 {
     Renderer render;
     [SerializeField]
     float colorPower = 1f;
 
     [SerializeField]
-    Slider sld_colorPower;
+    Slider sld_normalAmount;
 
     private void Start()
     {
@@ -19,6 +19,6 @@ public class MyCharacter : MonoBehaviour
 
     private void Update()
     {
-        render.material.SetFloat("_Slider_Rim", sld_colorPower.value);
+        render.material.SetFloat("_Slider_Normal", sld_normalAmount.value);
     }
 }
