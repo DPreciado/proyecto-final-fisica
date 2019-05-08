@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MyCharacterHead : MonoBehaviour
+public class HornetHeadRim : MonoBehaviour
 {
     Renderer render;
     [SerializeField]

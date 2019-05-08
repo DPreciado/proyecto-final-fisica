@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MyCharacterCloakNormal : MonoBehaviour
+public class HornetHeadOpacity : MonoBehaviour
 {
     Renderer render;
     [SerializeField]
-    float colorPower = 1f;
+    float OpacityPower = 1f;
 
     [SerializeField]
-    Slider sld_normalAmount;
+    Slider sld_OpacityPower;
 
     private void Start()
     {
@@ -19,6 +19,6 @@ public class MyCharacterCloakNormal : MonoBehaviour
 
     private void Update()
     {
-        render.material.SetFloat("_Slider_Normal", sld_normalAmount.value);
+        render.material.SetFloat("_Slider_Opacity", sld_OpacityPower.value);
     }
 }

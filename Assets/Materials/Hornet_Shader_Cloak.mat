@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Hornet_Shader_Normal_Cloak
+  m_Name: Hornet_Shader_Cloak
   m_Shader: {fileID: -6465566751694194690, guid: 33bdb468dd56e0c428150ca6b3af4c9f,
     type: 3}
   m_ShaderKeywords: 
@@ -20,8 +20,16 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_43A26B19:
+        m_Texture: {fileID: 2800000, guid: 4a11a2ec230a85f40b1ae94230b42c66, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_75A67ECF:
         m_Texture: {fileID: 2800000, guid: a1c11975720a73240abaf5e7bf7c5706, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_85992B25:
+        m_Texture: {fileID: 2800000, guid: e0e61dcf81d23b64b835eac9e740c287, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_AD7B81F6:
@@ -29,9 +37,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_27D2D6D: 0.22
     - Vector1_44719E15: 1
+    - Vector1_57018A51: 0
     - _Slider_Normal: 1
-    - _Slider_Rim: 0.67
+    - _Slider_Opacity: 0.16
+    - _Slider_Rim: 0.23
     m_Colors:
     - Vector2_659AA4AD: {r: 1, g: 1, b: 0, a: 0}
     - _Rim_Color_Head: {r: 0.40197787, g: 0.23074007, b: 0.17144115, a: 1}
