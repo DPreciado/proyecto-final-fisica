@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Hornet_Shader_Head
-  m_Shader: {fileID: -6465566751694194690, guid: 5eab059d9d097ab4b805b24342890e61,
+  m_Name: Hornet_Shader_Eyes
+  m_Shader: {fileID: -6465566751694194690, guid: 6034cc36673baea49866bfb44cc7f1c5,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -20,16 +20,23 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_235CD586:
+        m_Texture: {fileID: 2800000, guid: 29363ab21988f0748b147762e30a5426, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_AD7B81F6:
-        m_Texture: {fileID: 2800000, guid: 536d193372c77a947a7adc0211643372, type: 3}
+        m_Texture: {fileID: 2800000, guid: b3188359f42ed684bbb9b24e460cc4be, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_BBF394F:
-        m_Texture: {fileID: 2800000, guid: e8f4ea13069e34b4dab1b639f94349b7, type: 3}
+        m_Texture: {fileID: 2800000, guid: fa562c77c86495f45b8682fd6f2c79a4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_97D4E9FA: 0.25
+    - Vector1_C514BF5B: 182.84
+    - _Slider_Color: 194
+    - _Slider_Color_Power: 0.07
+    - _Slider_Normal: 0
     - _Slider_Opacity: 0
-    - _Slider_Rim: 0.8
-    m_Colors:
-    - _Rim_Color_Head: {r: 1, g: 0, b: 0.009225845, a: 0}
+    m_Colors: []
