@@ -1638,6 +1638,26 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8b856aaa8b4498c40a6443ff87b42653, type: 2}
+    - target: {fileID: -8565680273232128185, guid: 58aa2bf4061517344a1621ea73daf8d1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.036436096
+      objectReference: {fileID: 0}
+    - target: {fileID: -8565680273232128185, guid: 58aa2bf4061517344a1621ea73daf8d1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.67519575
+      objectReference: {fileID: 0}
+    - target: {fileID: -8565680273232128185, guid: 58aa2bf4061517344a1621ea73daf8d1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0048231157
+      objectReference: {fileID: 0}
+    - target: {fileID: -8565680273232128185, guid: 58aa2bf4061517344a1621ea73daf8d1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7367224
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58aa2bf4061517344a1621ea73daf8d1, type: 3}
 --- !u!1 &980247216
@@ -1651,6 +1671,7 @@ GameObject:
   - component: {fileID: 980247219}
   - component: {fileID: 980247218}
   - component: {fileID: 980247217}
+  - component: {fileID: 980247220}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1723,6 +1744,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 21.361, y: 31.074001, z: 0}
+--- !u!95 &980247220
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980247216}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7eb7cd7bef047ea4383734c07c44f1f6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &982125418
 GameObject:
   m_ObjectHideFlags: 0
@@ -3089,7 +3129,7 @@ Light:
   m_Type: 2
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 2
-  m_Range: 2.32
+  m_Range: 1.31
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -3145,7 +3185,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1460053385}
   m_LocalRotation: {x: 0.0006905909, y: -0, z: -0, w: 0.99999976}
-  m_LocalPosition: {x: -1.5116616, y: 1.8293313, z: -0.77743936}
+  m_LocalPosition: {x: -1.08, y: 1.8293313, z: -0.77743936}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 146358294}
